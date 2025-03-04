@@ -1,6 +1,10 @@
 # [getyourstyle.streamlit.app](https://getyourstyle.streamlit.app/)
 
-Here is a Minimal Viable Product - a simple WebApp where user can take/upload photo and receive haircut recommendations.
+
+
+GetYourStyle is a WebApp written in Python where user can take/upload photo and receive haircut recommendations.
+
+More details can be found in the accompanying __[PAPER](/papers/A_Haircut_Recommender_System_with_EfficientNetV2S_for_Face_Shape_Classification.pdf)__
 ![app](/hair_cut/images/haircutrec.png)
 
 ## Architecture
@@ -8,7 +12,7 @@ Here is a Minimal Viable Product - a simple WebApp where user can take/upload ph
 ![app architecture](/hair_cut/images/architecture.png)
 *diagram was made with [excalidraw.com](https://excalidraw.com/)*
 
-All models and files are cached to save resources and for the app to have quick response. I used a Multi-task CNN[^1] as a face detector and a [face shape classificator](/face_shape/README.md) to get the shape of the face. 
+All models and files are cached to save resources and for the app to have quick response. I used a Multi-task CNN[^1] as a face detector and an improved [face shape classificator](/papers/A_Haircut_Recommender_System_with_EfficientNetV2S_for_Face_Shape_Classification.pdf) to get the shape of the face. 
 
 ## Future improvements
 
